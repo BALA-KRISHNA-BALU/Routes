@@ -9,9 +9,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-
 }
 
 .Nav>h1 {
@@ -85,4 +82,51 @@ body {
 }
 .home>button:hover{
     background-color: black;
+}
+.sign-container{
+    width: 440px;
+    padding: 7px 30px;
+    border-radius: 15px;
+    background-color:rgb(254, 190, 254);
+}
+.sign-container>p{
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+}
+.input-container{
+    margin-top: 10px;
+}
+.input-container>p{
+    padding: 0px;
+    margin: 0;
+    font-size: large;
+    font-weight: bold;
+}
+.input-container>input{
+    padding: 15px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: 5px;   
+}
+.sign-btn{
+    margin-top: 15px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(117, 0, 227);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    /* margin-left: 160px; */
+    font-weight: bold;
+}
+.sign-up{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,5 +1,7 @@
-function Home() {
+import SignUp from "./SingUp";
 
+function Home() {
+    
     return (
         <div>
             <div className="home">
@@ -17,14 +19,11 @@ function Home() {
                     <dd>Some tips for preparing test data include using one dataset per functionality, distinguishing between read-only and writable test data, and not sharing data between two test cases.</dd>
                     <dt>Time:</dt>
                     <dd>Research indicates that 30-60% of a tester's time is spent on searching, maintaining, and generating data for testing and development.</dd>
-
                 </dl>
                 <button>TAKE THE TEST</button>
             </div>
         </div>
     );
-
-
 }
 
 export default Home;
